@@ -4,29 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Components</title>
-    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="/css/component.css">
 </head>
 <body>
     <h1>My Component Library</h1>
     <p>This is my component library to better design each element.</p>
     <p>After creating this library i am going to use the components in <strong> portfolio, blog and all projects</strong> created. This will ensure that all my projects have <strong>consistent themeing and styling</strong>.</p>
     <hr>
+
     <h2>@typography</h2>
     <h1>The biggest heading h1</h1>
     <h2>The second biggest heading h2</h2>
     <p>This is normal text. Long running text would look like this on your website. This will auto fold based on the width</p>
     <small>This is relatively smaller text</small>
     <hr>
+
     <h2>@containers</h2>
     <h3>@fluid container</h3>
-    <p>This is going to be a fluid container. It will go full width of page. With some margin.</p>
+    <div class="container">This is going to be a fluid container. It will go full width of page. With some margin.</div>
     <h3>@center container</h3>
-    <p>This is going to be a center container. It will go till a given width and center content.</p>
+    <div class="container container-center">This is going to be a center container. It will go till a given width and center content.</div>
     <hr>
+
     <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
     <hr>
+
     <h2>@lists</h2>
     <h3>unordered lists</h3>
     <p>We don't want to show bullets in the unordered list. We'll remove that with CSS.</p>
@@ -50,6 +54,7 @@
         <li>item three</li>
     </ol>
     <hr>
+
     <h2>nav</h2>
     <p>Navigation is used on the top of the page and used to get to different pages</p>
     <nav>
@@ -61,12 +66,14 @@
         </ul>
     </nav>
     <hr>
+
     <h2>@header</h2>
     <header>
         <img src="/images/header.svg" alt="">
         <h1>Suraj Soan Kamble <span>The Web Developer</span>.</h1>
     </header>
     <hr>
+
     <h2>@section</h2>
     <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
     <h3>@normal section</h3>
@@ -82,6 +89,7 @@
         <a href="/">Primary Button</a>
     </section>
     <hr>
+
     <h2>@footer</h2>
     <footer>
         <div>header inside footer</div>
