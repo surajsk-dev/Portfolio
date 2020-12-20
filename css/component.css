@@ -120,6 +120,11 @@ hr {
     color: var(--primary-color);
 }
 
+.section .img{
+    max-width:400px;
+    margin: auto;
+}
+
 .ow{
     background-color: var(--off-white);
 }
