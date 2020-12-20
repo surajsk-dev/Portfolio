@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
 
 /* root element for entire page */
-:root{
-    --primary-color:#374151;
+:root {
+    --primary-color: #374151;
+    --grey: #9CA3AF;
+    --off-white: #F3F4F6;
 }
 
 body {
@@ -39,7 +41,7 @@ hr {
 }
 
 .link-secondary {
-    color:var(--primary-color);
+    color: var(--primary-color);
     border: var(--primary-color) 1px solid;
     border-radius: 0.5rem;
 }
@@ -68,7 +70,7 @@ hr {
     font-size: 1.1rem;
 }
 
-.navigation .link{
+.navigation .link {
     color: white;
 }
 
@@ -76,6 +78,40 @@ hr {
     font-weight: bold;
 }
 
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
+}
+
+/* header */
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color: var(--grey);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.hero .hero-highlight {
+    color: var(--primary-color);
+}
+
+/* section */
+.section {
+    padding: 2rem;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
 }
