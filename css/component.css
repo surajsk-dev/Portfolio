@@ -31,6 +31,7 @@ hr {
 
 /* links */
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -46,7 +47,10 @@ hr {
     color: var(--primary-color);
     border: var(--primary-color) 1px solid;
     border-radius: 0.5rem;
-    padding-right: 2rem;
+}
+
+.showlist {
+    padding: 2rem;
 }
 
 /* list */
